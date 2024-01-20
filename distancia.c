@@ -9,4 +9,13 @@ int main(){
 
    int x1, y2,x2,y2;
    float distancia;
+   
+   prinf("Informe as coordenadas para o primeiro ponto: ");
+   scanf("%i %i", &x1, &x1);
+   prinf("Informe as coordenadas para o segundo ponto: ");
+   scanf("%i %i", &x2, &x2);
+
+   distancia = calculaDistancia(x1,y1,x2y2);
+   
+  printf("Distancia: %f", distancia);
 }
